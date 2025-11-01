@@ -1,0 +1,156 @@
+body {
+    background-color: #f5f5dc;
+    margin: 15px 30px;    
+}
+
+
+/* Mobile first design */
+.mobile-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.mobile-title h1 {
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 200px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.tablet-title {
+    display: none;
+}
+
+.desktop-title {
+    display: none;
+}
+
+
+table {
+    width: 100%;
+}
+
+.flag {
+    border-collapse: collapse; /*removes spacing between cells */
+    border-spacing: 0;
+}
+
+.red {
+    background-color: red;
+    height: 15px;
+    padding: 0;
+}
+
+
+.white {
+    background-color: white;
+    height: 15px;
+    padding: 0;
+}
+
+img {
+    height: 120px;
+    width: 150px;
+    margin: 0;
+    display: block; /* Removes the space between the star image and the first white stripe below */
+}
+
+.stars {
+    width: 0%;
+    padding: 0;
+} 
+
+
+/* Tablet / Ipad version */
+@media (min-width:600px){
+
+.mobile-title {
+    display: none;
+}
+
+.tablet-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tablet-title h1 {
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 250px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.red {
+    background-color: red;
+    height: 23px;
+}
+
+
+.white {
+    background-color: white;
+    height: 23px;
+}
+
+img {
+    height: 180px;
+    width: 280px;
+}
+
+}
+
+
+/* Desktop version */
+@media (min-width:932px){
+
+.mobile-title {
+    display: none;
+}
+
+.tablet-title {
+    display: none;
+}
+
+.desktop-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.desktop-title h1 {
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 450px;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 50px;
+
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+}
+
+.white {
+    background-color: white;
+    height: 50px;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+}
+
+}
+
+
